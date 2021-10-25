@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import ContactMe from "./components/ContactMe";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <ToLearn />
       <Portfolio />
-      <ContactMe />
+      <Contact />
       <Footer />
     </div>
   );
