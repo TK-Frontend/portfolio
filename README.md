@@ -1,4 +1,4 @@
-This application will show you a little informations about me and my projects ;)
+On this page you will find some information about me and the projects I have realized
 
 Demo: https://tk-frontend.github.io/portfolio/
 
