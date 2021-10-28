@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black font-rubik">
-      <div className="max-w-6xl mx-auto px-3 py-6">
+    <nav className="bg-black font-rubik px-3 py-6">
+      <div className="max-w-6xl mx-auto ">
         <div className="flex justify-between items-center text-blue-50">
           <div className="flex justify-center">
             <img
