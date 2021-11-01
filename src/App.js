@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
-import ToLearn from "./components/ToLearn";
 import Welcome from "./components/Welcome";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       <Navbar />
       <Welcome />
       <Skills />
-      <ToLearn />
       <Portfolio />
       <Contact />
       <Footer />
