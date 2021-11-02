@@ -1,6 +1,7 @@
 import React from "react";
 import face from "../assets/images/imgb.png";
 import Typical from "react-typical";
+import CV from "../assets/images/TomaszKozinaCV.pdf";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
@@ -12,13 +13,31 @@ const Welcome = () => {
           <div className="grid h-full border-r "></div>
           <div className="">
             <div className="grid py-2 text-2xl hover:text-yellow-400 transform hover:scale-110">
-              <BsGithub />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/TK-Frontend?tab=repositories"
+              >
+                <BsGithub />
+              </a>
             </div>
             <div className="grid py-2 text-2xl hover:text-yellow-400 transform hover:scale-110">
-              <FaLinkedinIn />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/tomasz-kozina-0101992/"
+              >
+                <FaLinkedinIn />
+              </a>
             </div>
             <div className="grid py-2 text-2xl hover:text-yellow-400 transform hover:scale-110">
-              <FaFacebook />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/tomek.kozina"
+              >
+                <FaFacebook />
+              </a>
             </div>
           </div>
           <div className="grid h-full border-r "></div>
@@ -43,7 +62,10 @@ const Welcome = () => {
               />
             </p>
             <button className="bg-yellow-400 text-black rounded-lg mt-2 text-lg px-3 py-1 hover:bg-yellow-300">
-              CV.pdf
+              <a href={CV} download="TomaszKozinaCV.pdf">
+                {" "}
+                CV.pdf{" "}
+              </a>
             </button>
           </div>
         </div>
