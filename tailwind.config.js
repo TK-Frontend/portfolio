@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         rubik: ["Rubik"],
       },
+      transitionProperty: {
+        right: "right",
+      },
     },
   },
   variants: {

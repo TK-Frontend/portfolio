@@ -42,8 +42,8 @@ const Welcome = () => {
           </div>
           <div className="grid h-full border-r "></div>
         </div>
-        <div className="col-start-2 col-end-8 order-last sm:order-none">
-          <div className="mx-2 sm:mx-20 pt-6 flex flex-col justify-center justify-items-center sm:items-baseline items-center  ">
+        <div className="col-start-3 col-end-8 order-last sm:order-none sm:justify-self-start">
+          <div className="mx-2  pt-6 flex flex-col justify-center justify-items-center sm:items-baseline items-center  ">
             <h1 className="text-xl text-center sm:text-2xl md:text-5xl lg:text-6xl font-bold sm:text-left">
               Hi, I&apos;m Tomek
             </h1>
@@ -53,6 +53,8 @@ const Welcome = () => {
                 wrapper="a"
                 steps={[
                   " I'm Frontend Developer",
+                  2000,
+                  " I'm 29 years old",
                   2000,
                   " I'm a Father",
                   1500,
