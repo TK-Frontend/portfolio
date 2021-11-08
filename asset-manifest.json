@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.997e5002.chunk.css",
-    "main.js": "/portfolio/static/js/main.071e0725.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.071e0725.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.52236cb2.chunk.css",
+    "main.js": "/portfolio/static/js/main.bee1a9df.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bee1a9df.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
-    "static/js/2.9d5aa6b3.chunk.js": "/portfolio/static/js/2.9d5aa6b3.chunk.js",
-    "static/js/2.9d5aa6b3.chunk.js.map": "/portfolio/static/js/2.9d5aa6b3.chunk.js.map",
+    "static/js/2.e6566589.chunk.js": "/portfolio/static/js/2.e6566589.chunk.js",
+    "static/js/2.e6566589.chunk.js.map": "/portfolio/static/js/2.e6566589.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.997e5002.chunk.css.map": "/portfolio/static/css/main.997e5002.chunk.css.map",
-    "static/js/2.9d5aa6b3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9d5aa6b3.chunk.js.LICENSE.txt",
+    "static/css/main.52236cb2.chunk.css.map": "/portfolio/static/css/main.52236cb2.chunk.css.map",
+    "static/js/2.e6566589.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e6566589.chunk.js.LICENSE.txt",
     "static/media/TomaszKozinaCV.5e9b921f.pdf": "/portfolio/static/media/TomaszKozinaCV.5e9b921f.pdf",
     "static/media/css3.463e319b.png": "/portfolio/static/media/css3.463e319b.png",
     "static/media/express.fc0640a0.png": "/portfolio/static/media/express.fc0640a0.png",
-    "static/media/imgb.89eeacf3.png": "/portfolio/static/media/imgb.89eeacf3.png",
+    "static/media/imgb.b3468cee.png": "/portfolio/static/media/imgb.b3468cee.png",
     "static/media/jest.f574ee1e.png": "/portfolio/static/media/jest.f574ee1e.png",
     "static/media/js.a2a16f08.png": "/portfolio/static/media/js.a2a16f08.png",
     "static/media/mongodb.068e7f0d.png": "/portfolio/static/media/mongodb.068e7f0d.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
-    "static/js/2.9d5aa6b3.chunk.js",
-    "static/css/main.997e5002.chunk.css",
-    "static/js/main.071e0725.chunk.js"
+    "static/js/2.e6566589.chunk.js",
+    "static/css/main.52236cb2.chunk.css",
+    "static/js/main.bee1a9df.chunk.js"
   ]
 }
