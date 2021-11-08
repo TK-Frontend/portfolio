@@ -8,7 +8,7 @@ import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 const Welcome = () => {
   return (
     <div className="bg-black text-white font-rubik px-4 ">
-      <div className="max-w-6xl pt-0 pb-20 sm:pb-40 md:pt-2 mx-auto flex flex-col sm:grid grid-cols-12 place-items-center justify-around">
+      <div className="max-w-6xl pt-4 pb-20 sm:pb-40 md:pt-8 mx-auto flex flex-col sm:grid grid-cols-12 place-items-center justify-around">
         <div className="hidden sm:grid  grid-rows-3 place-items-center h-full justify-self-start ml-5 col-start-1 col-end-2  ">
           <div className="grid h-full border-r "></div>
           <div className="">
