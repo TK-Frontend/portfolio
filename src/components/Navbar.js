@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto ">
         <div className="flex justify-between items-center text-blue-50">
           <div className="flex justify-center">
-            <a rel="noreferrer" href="/">
+            <a rel="noreferrer" href="/portfolio">
               <img
                 src={tklogo}
                 alt=""
