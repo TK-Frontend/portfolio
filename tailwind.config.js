@@ -8,6 +8,7 @@ module.exports = {
       },
       transitionProperty: {
         right: "right",
+        left: "left",
       },
     },
   },
