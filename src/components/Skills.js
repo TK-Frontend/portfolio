@@ -19,7 +19,7 @@ import reduxIcon from "../assets/images/reduxIcon.png";
 import addTask from "../assets/images/addTask.png";
 import next from "../assets/images/next.png";
 import jest from "../assets/images/jest.png";
-import reactNative from "../assets/images/reactNative.png";
+import reactNative from "../assets/images/reactnative.png";
 import { Element } from "react-scroll";
 
 const Skills = () => {
