@@ -6,8 +6,8 @@ Technologies used:
 
 HTML5, Tailwind CSS, JavaScript, React
 
-The project is in progress..
+This project was created based on the figma layout
 
 If you have any suggestions what I can improve / modify, be sure to write to me.
 
-Enjoy!
+Enjoy ;)
