@@ -5,8 +5,11 @@ import CV from "../assets/images/TomaszKozinaCV.pdf";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
+import moment from "moment";
 
 const Welcome = () => {
+  const age = moment().diff("1992-09-08", "years");
+
   return (
     <div className="bg-black text-white font-rubik px-4 ">
       <div className="max-w-6xl pt-4 pb-20 sm:pb-40 md:pt-8 mx-auto flex flex-col sm:grid grid-cols-12 place-items-center justify-around">
@@ -78,7 +81,7 @@ const Welcome = () => {
                 steps={[
                   " I'm Frontend Developer",
                   2000,
-                  " I'm 29 years old",
+                  ` I'm ${age} years old`,
                   2000,
                   " I'm a Father",
                   1500,
