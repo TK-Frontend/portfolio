@@ -35,7 +35,9 @@ const Skills = () => {
         </div>
         <div className="flex justify-center pt-8 sm:pt-12 sm:pb-0 pb-6 items-center ">
           <img src={bolt} alt="bolt" className="w-8 text-gray-600" />
-          <h2 className="text-xl sm:text-3xl font-light">I feel good in</h2>
+          <h2 className="text-xl sm:text-3xl font-light">
+            I feel comfortable with
+          </h2>
         </div>
         <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-8 gap-12 sm:gap-1 mt-4 sm:mt-8 px-2 py-4 mx-auto self-center justify-center justify-items-center items-center border-l border-r border-gray-200 shadow-md">
           <img
@@ -69,7 +71,9 @@ const Skills = () => {
         </div>
         <div className="flex justify-center pt-12 sm:pb-0 pb-6 items-center ">
           <img src={checklist} alt="bolt" className="w-8 text-gray-600 pr-2 " />
-          <h2 className="text-xl sm:text-3xl font-light">I know basics of</h2>
+          <h2 className="text-xl sm:text-3xl font-light">
+            I know the basics of
+          </h2>
         </div>
         <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-1 mt-4 sm:mt-8 px-2 sm:py-4 pb-12 sm:pb-4 mx-auto self-center justify-center justify-items-center items-center border-l border-r border-gray-200 shadow-md">
           <img
@@ -90,9 +94,7 @@ const Skills = () => {
         </div>
         <div className="flex justify-center pt-12 sm:pb-0 pb-6 items-center ">
           <img src={receipt} alt="bolt" className="w-8 text-gray-600 pr-2" />
-          <h2 className="text-xl sm:text-3xl font-light">
-            Actually I&apos;m learning
-          </h2>
+          <h2 className="text-xl sm:text-3xl font-light">I&apos;m learning</h2>
         </div>
         <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-1 mt-4 sm:mt-8 px-2 sm:py-4 pb-12 sm:pb-4 mx-auto self-center justify-center justify-items-center items-center border-l border-r border-gray-200 shadow-md">
           <img src={typescript} alt="ts" className={SCALE_STYLES + "w-14"} />
@@ -105,9 +107,7 @@ const Skills = () => {
         </div>
         <div className="flex justify-center pt-12 sm:pb-0 pb-6 items-center ">
           <img src={addTask} alt="add" className="w-8 text-gray-600 pr-2" />
-          <h2 className="text-xl sm:text-3xl font-light">
-            I wan&apos;t to learn
-          </h2>
+          <h2 className="text-xl sm:text-3xl font-light">I want to learn</h2>
         </div>
         <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-1 mt-4 sm:mt-8 px-2 sm:py-4 pb-12 sm:pb-4 mx-auto self-center justify-center justify-items-center items-center border-l border-r border-gray-200 shadow-md">
           <img src={next} alt="next" className={SCALE_STYLES + "w-20"} />
