@@ -7,7 +7,7 @@ import pizzaLogo from "../assets/images/pizzaMini.png";
 import pizzaSite from "../assets/images/pizzaSite.png";
 import starTrek from "../assets/images/starTrek.png";
 import starTrekMini from "../assets/images/starTrekMini.png";
-import SwiperCore, { Pagination, Navigation } from "swiper";
+import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper";
 import "swiper/swiper.scss";
 import "swiper/modules/navigation/navigation.scss";
 import "swiper/modules/pagination/pagination.scss";
@@ -25,6 +25,8 @@ const Projects = () => {
             </h1>
           </div>
           <Swiper
+            modules={[Autoplay]}
+            autoplay={true}
             slidesPerView={1}
             spaceBetween={30}
             loop={true}
