@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 import { BsGithub } from "react-icons/bs";
 import { FiExternalLink, FiGitlab } from "react-icons/fi";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
-import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper";
+import SwiperCore, { Pagination, Navigation } from "swiper";
 import pizzaLogo from "../assets/images/pizzaMini.png";
 import pizzaSite from "../assets/images/pizzaSite.png";
 import starTrek from "../assets/images/starTrek.png";
@@ -29,8 +29,6 @@ const Projects = () => {
             </h1>
           </div>
           <Swiper
-            modules={[Autoplay]}
-            autoplay={true}
             slidesPerView={1}
             spaceBetween={30}
             loop={true}
@@ -105,7 +103,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://github.com/TK-Frontend/findyourpizza"
+                          href="https://tk-frontend.github.io/portfolio/"
                           className="px-2"
                         >
                           <BsGithub className="text-sm md:text-xl lg:text-2xl" />
@@ -115,7 +113,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://tk-frontend.github.io/findyourpizza"
+                          href="https://github.com/TK-Frontend/portfolio"
                         >
                           <FiExternalLink className="text-sm md:text-xl lg:text-2xl" />
                         </a>
