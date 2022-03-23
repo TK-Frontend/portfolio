@@ -28,7 +28,7 @@ function Portfolio() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://tk-frontend.github.io/portfolio/"
+                href="https://github.com/TK-Frontend/portfolio"
                 className="px-2"
               >
                 <BsGithub className="text-sm md:text-xl lg:text-2xl" />
@@ -38,7 +38,7 @@ function Portfolio() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/TK-Frontend/portfolio"
+                href="https://tk-frontend.github.io/portfolio/"
               >
                 <FiExternalLink className="text-sm md:text-xl lg:text-2xl" />
               </a>
