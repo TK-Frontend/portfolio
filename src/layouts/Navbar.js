@@ -46,9 +46,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" bg-black font-rubik px-3 py-6 ">
+    <section className=" bg-black font-rubik px-3 py-6 ">
       <div className="max-w-6xl mx-auto ">
-        <div className="flex justify-between items-center text-blue-50">
+        <nav className="flex justify-between items-center text-blue-50">
           <motion.div
             variants={containersVariants}
             animate="visibleLogo"
@@ -72,7 +72,7 @@ const Navbar = () => {
               " sm:flex sm:static fixed sm:bg-transparent bottom-0 top-0 right-0 w-3/5 sm:w-full bg-black opacity-90 sm:opacity-100 z-20 items-center sm:justify-end pt-10 sm:pt-0 space-y-4 sm:space-x-12 font-thin text-lg transition-right delay-100"
             }
           >
-            <div className="flex flex-col sm:flex-row space-x-10 sm:pt-0 pt-10 items-center space-y-4">
+            <menu className="flex flex-col sm:flex-row space-x-10 sm:pt-0 pt-10 items-center space-y-4">
               <div className="flex hover:text-yellow-400 text-blue-50 text-xl transition duration-300 cursor-pointer pl-3 pt-4">
                 <Link to="skills" smooth={true}>
                   Skills
@@ -88,7 +88,7 @@ const Navbar = () => {
                   Contact
                 </Link>
               </div>
-            </div>
+            </menu>
           </motion.div>
           <motion.div
             variants={containersVariants}
@@ -99,9 +99,9 @@ const Navbar = () => {
           >
             <Hamburger className={"cursor-pointer w-6 h-6 "} />
           </motion.div>
-        </div>
+        </nav>
       </div>
-    </nav>
+    </section>
   );
 };
 
