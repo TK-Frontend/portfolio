@@ -9,9 +9,9 @@ function FindYourPizza() {
     <div className="flex flex-col sm:grid grid-cols-12 place-items-center h-full justify-self-start">
       <div className="hidden sm:grid grid-rows-3 col-start-1 col-span-1 row-start-1 justify-items-center justify-self-start">
         <div className="grid h-full border-l"></div>
-        <div className="py-8">
+        <picture className="py-8">
           <img src={pizzaLogo} alt="pizzaLogo" className="w-10" />
-        </div>
+        </picture>
         <div className="grid h-full border-r"></div>
       </div>
 
@@ -47,9 +47,9 @@ function FindYourPizza() {
         </div>
       </div>
 
-      <div className="col-start-5 col-span-8 row-start-1 px-3 sm:pr-4">
+      <picture className="col-start-5 col-span-8 row-start-1 px-3 sm:pr-4">
         <img src={pizzaSite} alt="" className="w-full rounded-md opacity-90" />
-      </div>
+      </picture>
     </div>
   );
 }
