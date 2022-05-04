@@ -1,6 +1,6 @@
 import React from "react";
 import face from "../assets/images/imgb.png";
-import Typical from "react-typical";
+import TypeAnimation from "react-type-animation";
 import CV from "../assets/images/TomaszKozinaCV.pdf";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
@@ -11,7 +11,7 @@ const Welcome = () => {
   const age = moment().diff("1992-09-08", "years");
 
   return (
-    <div className="bg-black text-white font-rubik px-4 ">
+    <section className="bg-black text-white font-rubik px-4 ">
       <div className="max-w-6xl pt-4 pb-20 sm:pb-40 md:pt-8 mx-auto flex flex-col sm:grid grid-cols-12 place-items-center justify-around">
         <div className="hidden sm:grid  grid-rows-3 place-items-center h-full justify-self-start ml-5 col-start-1 col-end-2  ">
           <motion.div
@@ -68,17 +68,19 @@ const Welcome = () => {
             transition={{ ease: "easeOut", delay: 0.4, duration: 0.6 }}
             className="mx-2 pt-6 flex flex-col justify-center justify-items-center sm:items-baseline items-center  "
           >
-            <h1
-              animate={{ fontSize: 20 }}
-              className="text-xl text-center sm:text-2xl md:text-5xl lg:text-6xl font-bold sm:text-left"
-            >
-              Hi, I&apos;m Tomek
-            </h1>
+            <header>
+              <h1
+                animate={{ fontSize: 20 }}
+                className="text-xl text-center sm:text-2xl md:text-5xl lg:text-6xl font-bold sm:text-left"
+              >
+                Hi, I&apos;m Tomek
+              </h1>
+            </header>
             <p className="text-sm sm:text-xl md:text-2xl lg:text-3xl mt-2 font-light text-left">
-              <Typical
-                loop={Infinity}
+              <TypeAnimation
+                repeat={Infinity}
                 wrapper="a"
-                steps={[
+                sequence={[
                   " I'm Frontend Developer",
                   2000,
                   ` I'm ${age} years old`,
@@ -104,10 +106,12 @@ const Welcome = () => {
           transition={{ ease: "easeOut", delay: 0.4, duration: 0.6 }}
           className="flex justify-center col-start-8 col-span-5 "
         >
-          <img src={face} alt="TK" className="w-full" />
+          <picture>
+            <img src={face} alt="TK" className="w-full" />
+          </picture>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 
