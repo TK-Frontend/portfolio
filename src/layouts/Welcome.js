@@ -5,10 +5,12 @@ import CV from "../assets/images/TomaszKozinaCV.pdf";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
-import moment from "moment";
+import dayjs from "dayjs";
 
 const Welcome = () => {
-  const age = moment().diff("1992-09-08", "years");
+  const relativeTime = require("dayjs/plugin/relativeTime");
+  dayjs.extend(relativeTime);
+  const age = dayjs().diff("1992-09-08", "years");
 
   return (
     <section className="bg-black text-white font-rubik px-4 ">
@@ -73,7 +75,7 @@ const Welcome = () => {
                 animate={{ fontSize: 20 }}
                 className="text-xl text-center sm:text-2xl md:text-5xl lg:text-6xl font-bold sm:text-left"
               >
-                Hi, I&apos;m Tomek
+                Hi, I&apos;m Tomasz
               </h1>
             </header>
             <p className="text-sm sm:text-xl md:text-2xl lg:text-3xl mt-2 font-light text-left">
@@ -81,13 +83,13 @@ const Welcome = () => {
                 repeat={Infinity}
                 wrapper="a"
                 sequence={[
-                  " I'm Frontend Developer",
-                  2000,
-                  ` I'm ${age} years old`,
-                  2000,
-                  " I'm a Father",
+                  // "I am a self-taught developer",
+                  // 2000,
+                  `I am ${age} years old`,
                   1500,
-                  " I'm a Husband",
+                  "I am from Legnica in Poland", // Add here polish flag
+                  1500,
+                  `I am a happy husband and father`, // Add here family-icon
                   1500,
                 ]}
               />
