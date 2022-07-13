@@ -9,6 +9,7 @@ import {
   CSS3,
   EXPO,
   EXPRESS,
+  FORMIK,
   FIREBASE,
   FLUTTER,
   HTML,
@@ -18,18 +19,20 @@ import {
   GITLAB,
   JEST,
   NODEJS,
+  MUI,
   MONGODB,
   NEXT,
   REACT_ICON,
   REACT_NATIVE,
   RECEIPT,
   REDUX_ICON,
+  SASS,
   SC,
   SCRUM,
   TAILWIND,
   TYPESCRIPT,
   VSC,
-} from "../assets/images";
+} from "../assets/images"; // Try to import * from this file
 
 const Skills = () => {
   const SCALE_STYLES = " transform scale-100 hover:scale-110 ";
@@ -63,11 +66,14 @@ const Skills = () => {
               className={SCALE_STYLES + "w-20 h-full "}
             />
             <img src={SC} alt="styled" className={SCALE_STYLES + "w-20"} />
+
+            <img src={SASS} alt="sass" className={SCALE_STYLES + "w-20"} />
             <img
               src={TAILWIND}
               alt="tailwind"
               className={SCALE_STYLES + "w-20"}
             />
+            <img src={MUI} alt="mui" className={SCALE_STYLES + "w-20"} />
             <img src={JS} alt="javascript" className={SCALE_STYLES + "w-20 "} />
             <img
               src={REACT_ICON}
@@ -79,17 +85,10 @@ const Skills = () => {
               alt="context"
               className={SCALE_STYLES + "w-44 "}
             />
+            <img src={FORMIK} alt="formik" className={SCALE_STYLES + "w-20 "} />
             <img src={GIT} alt="git" className={SCALE_STYLES + "w-20 "} />
-            <img
-              src={GITHUB}
-              alt="github"
-              className={SCALE_STYLES + "w-16 h-full "}
-            />
-            <img
-              src={GITLAB}
-              alt="gitlab"
-              className={SCALE_STYLES + "w-16 h-full "}
-            />
+            <img src={GITHUB} alt="github" className={SCALE_STYLES + "w-16 "} />
+            <img src={GITLAB} alt="gitlab" className={SCALE_STYLES + "w-16 "} />
             <img
               src={VSC}
               alt="visual-studio-code"
@@ -105,7 +104,7 @@ const Skills = () => {
               className="w-8 text-gray-600 pr-2 "
             />
             <h2 className="text-xl sm:text-3xl font-light">
-              I know the basics of
+              I used technologies such as
             </h2>
           </div>
 
