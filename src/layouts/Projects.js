@@ -2,14 +2,15 @@ import React from "react";
 import { Element } from "react-scroll";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import AirportFinder from "../components/projects/AirportFinder";
-import Portfolio from "../components/projects/Portfolio";
-import FindYourPizza from "../components/projects/FindYourPizza";
-import StarTrek from "../components/projects/StarTrek";
+import AirportFinder from "../components/Projects/AirportFinder";
+import Portfolio from "../components/Projects/Portfolio";
+import FindYourPizza from "../components/Projects/FindYourPizza";
+import StarTrek from "../components/Projects/StarTrek";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import ListOfProducts from "../components/Projects/ListOfProducts";
 
 const Projects = () => {
   return (
@@ -37,6 +38,10 @@ const Projects = () => {
 
               <SwiperSlide className="py-0 sm:py-10 px-8 sm:px-14 self-center">
                 <Portfolio />
+              </SwiperSlide>
+
+              <SwiperSlide className="py-0 sm:py-10 px-8 sm:px-14 self-center">
+                <ListOfProducts />
               </SwiperSlide>
 
               <SwiperSlide className="py-0 sm:py-10 px-8 sm:px-14 self-center">
