@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import tklogo from "../assets/images/tklogo.png";
 import { Link } from "react-scroll";
-import { Hamburger } from "../components/hamburger/Hamburger";
+import { Hamburger } from "../components/Hamburger";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
